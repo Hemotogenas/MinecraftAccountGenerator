@@ -67,7 +67,7 @@ def list_all_words():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def redirect_to_website():
-    website_url = "https://www.example.com"
+    website_url = "https://github.com/Hemotogenas"
     webbrowser.open(website_url)
     print("Redirecting to {}".format(website_url))
 
